@@ -1,0 +1,8 @@
+﻿version: '3'
+
+services:
+    coreapp:
+        environment:
+            - ASPNETCORE_ENVIRONMENT = Development
+        port:
+            - 83
